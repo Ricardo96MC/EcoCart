@@ -1,0 +1,101 @@
+html{
+  background-color: #ededed;
+  font-family: "Syne";
+}
+
+.App {
+  text-align: center;
+  color: white;
+  width:100%
+}
+
+.header{
+  background-color: #FFFFFF;
+  height: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 5vh;
+}
+
+.home-container {
+  height: 88vh;
+  width: 100%;
+  margin-top: 20vh;
+  background-color: inherit;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.2);
+  object-fit: contain;
+  
+  
+}
+.searchBar{
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  line-height: 5em;
+}
+
+.searchIcon {
+  position: relative;
+  left: 25px;
+  top: 4px;
+  z-index: 50
+}
+
+.searchBar input{
+  height: 4em;
+  width: 40%;
+  border-radius: 0.3em;
+  border: 1px solid gray;
+  padding: 1px 10px 0px 30px;
+  box-shadow:  #ededed 0px 3px 3px, #ededed 0px 3px 3px;
+  border-radius: 30px;
+}
+
+.searchBar input:focus{
+  outline: none;
+}
+.signIn {
+  margin: 3rem;
+  color: #00b4b3;
+  border-color: inherit;
+  background: white;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Syne';
+  font-size: 8px;
+}
+.signIn:hover {
+  margin: 3rem;
+  color: white;
+  border-color: inherit;
+  background: #00b4b3;
+  border: none;
+  border-radius: 30px;
+}
+
+.AppBody{
+  width: 100%;
+  height: 20em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+  color: black;
+}
+
+.AvatarThumb{
+  width: 10em;
+  height: 10em;
+  position: relative;
+  overflow: clip;
+  border-radius: 50%;
+
+}
